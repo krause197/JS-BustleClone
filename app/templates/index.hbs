@@ -1,41 +1,8 @@
-<main class="main">
-  <div class="ember-view">
-    <div class="page-container">
-      <div class="ember-view">
-        <section class="homepage-featured_block">
-          <div class="homepage-featured_block-small">
 
-            {{#each model as |article|}}
-              {{article-tile article=article}}
-            {{/each}}
+<h1>News from the opposite side of the Political Spectrum from Bustle.com</h1>
 
-          <div class="clip-default_featured-hero">
-            <div class="ember-view clip-default clip-article"
-            <a href="/articles/1235-Featured article to create" class="clip-default-link ember-view">
-              <div class="clip-default_image">
-                <div class="ember-view x-image">
-                  <img class="x-image_image" srcset="" src="" sizes="(min-width:768px) 1000px, 660px">
-                </div>
-              </div>
-              <div class="clip-default_details">
-                <h3 class="clip-default_title">
-                  TITLE OF FEATURED ARTICLE
-                </h3>
-                <p class="clip-default_summary">
-                  "TEXT FROM START OF FEATURED ARTICLE" "..."
-                </p>
-                <div class="clip-default_attribution">
-                  <p class="clip-default_author">
-                    <span>By</span>
-                    "Author's Name"
-                  </p>
-                </div>
-              </div>
-            </a>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
-</main>
+<ul>
+  {{#each model as |article|}}
+    {{article-tile article=article}}
+  {{/each}}
+</ul>

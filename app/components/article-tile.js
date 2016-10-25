@@ -1,7 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  function getSummary({{article.text}}){
-    return {{article.text}}.split(/\s+/).slice(0,20).join(" ");
-  }
+  // actions: {
+  //   getSummary(article){
+  //     var articleText = article.text;
+  //     return articleText.split(/\s+/).slice(0,20).join(" ");
+  //   }
+  // }
 });
