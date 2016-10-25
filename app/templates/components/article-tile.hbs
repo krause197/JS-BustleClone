@@ -1,0 +1,21 @@
+<div class="ember-view clip-default clip-article">
+  <a href="/articles/{{article.title}}" class="clip-default-link ember-view">
+    <div class="clip-default_image">
+      <div class="ember-view x-image">
+        <img class="x-image_image" src="{{article.image}}" sizes="(min-width: 768px) 282px, 660px">
+      </div>
+    </div>
+    <div class="clip-default_details">
+      <h3 class="clip-default_title">{{article.title}}</h3>
+      <p class="clip-default_summary">
+        getSummary({{article.text}} "..."
+      </p>
+      <div class="clip-default_attribution">
+        <p class="clip-default_author">
+          <span>By</span>
+          {{article.author}}
+        </p>
+      </div>
+    </div>
+  </a>
+</div>
