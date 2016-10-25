@@ -1,0 +1,67 @@
+img {
+  position: relative;
+  left: 600px;
+  height: 150px;
+  width: 270px;
+  top: -30px;
+}
+
+body {
+  background-color: #F7F7F7;
+  /*display: block;
+  top: 0;
+  left: 0;
+  background: url(https://cdn.bustle.com/nighthawk.bustle.com/production/images/featured-pattern-27d6501d0fbb3f7e3deee91e37f7126d.svg);
+  background-size: 55%;
+  height: 100%;
+  opacity: .04;
+  z-index: -1;*/
+}
+
+.jumbotron {
+  background: url(http://meetmeunderthelibertytree.com/wp-content/uploads/2013/08/tree-yellow-logo-header-better-trunk-smaller-center.jpg) 100% 100% no-repeat;
+  top: 10px;
+  color: white;
+}
+
+img {
+  position: relative;
+  left: 600px;
+  height: 150px;
+  width: 270px;
+  top: -30px;
+}
+
+.tile {
+  color: white;
+  font-family: arial;
+  font-size: 32px;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  right: 10px;
+  border: 3px solid #F19F86;
+  border-radius: 10px;
+  padding: 50px;
+  width: 50%;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+h1 {
+  color: #00A582;
+  font-family: arial;
+  font-size: 64px;
+}
+
+.contact {
+  position: relative;
+  top: 40px;
+  align-content: center;
+  left: 30px;
+  border: 2px solid  #00B6B3;
+  border-radius: 10px;
+  padding: 50px;
+  width: 50%;
+}
